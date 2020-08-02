@@ -31,7 +31,7 @@ class Login extends Component {
             <div className='card'>
               <div className='card-image'>
                 <a href='https://connectedpeertutoring.org'>
-                  <img src='/Connected.svg' alt='ConnectedPeer Logo' />
+                  <img src='images/Connected.svg' alt='ConnectedPeer Logo' />
                 </a>
               </div>
               <div className='card-content center-align'>
@@ -39,10 +39,10 @@ class Login extends Component {
                   <img
                     src={'/GoogleLogin.png'}
                     onMouseOver={(e) =>
-                      (e.currentTarget.src = '/GoogleLoginHover.png')
+                      (e.currentTarget.src = 'images/GoogleLoginHover.png')
                     }
                     onMouseOut={(e) =>
-                      (e.currentTarget.src = '/GoogleLogin.png')
+                      (e.currentTarget.src = 'images/GoogleLogin.png')
                     }
                     alt='Google Login'
                   />
